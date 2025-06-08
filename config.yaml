@@ -1,0 +1,29 @@
+CloudConfig:
+  MonR2:
+    dataPath: MonR2
+    radiativeFeedbackMap: pred_MonR2_step2_G0.fits
+    corePropertiesTable: Sokol2019_table2_fix2.fit
+    coreTableReader: readSokolTable
+    cloudDistancePc: 860.
+    g0Threshold: 2.2
+  Perseus:
+    dataPath: Perseus
+    radiativeFeedbackMap: pred_Perseus_step2_G0.fits
+    corePropertiesTable: enoch+2006_cores_table.fit
+    coreTableReader: readEnoch2006Table
+    cloudDistancePc: 300.
+    g0Threshold: None
+  Ophiuchus: 
+    dataPath: Ophiuchus
+    radiativeFeedbackMap: pred_Ophiuchus_step2_G0.fits
+    corePropertiesTable: enoch+2008_cores_table.fit
+    coreTableReader: readOphiuchusEnoch2008Table
+    cloudDistancePc: 139
+    g0Threshold: None
+  Serpens: 
+    dataPath: Serpens
+    radiativeFeedbackMap: pred_Serpens_Aquila_step2_G0.fits
+    corePropertiesTable: enoch+2008_cores_table.fit
+    coreTableReader: readSerpensEnoch2008Table
+    cloudDistancePc: 410
+    g0Threshold: None
